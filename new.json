@@ -1,0 +1,41 @@
+{
+  "id": null,
+  "name":"api-prueba1",
+  "description":"test de pruba",
+  "context":"/api-prueba1",
+  "version":"v1",
+  "status":"CREATED",
+  "provider":"admin",
+  "apiDefinition":"{\"swagger\":\"2.0\",\"paths\":{\"/bitacoras/servicios\":{\"post\":{\"parameters\":[{\"name\":\"Payload\",\"description\":\"Request Body\",\"required\":false,\"in\":\"body\",\"schema\":{\"type\":\"object\",\"properties\":{\"payload\":{\"type\":\"string\"}}}}],\"responses\":{\"200\":{\"description\":\"\"}},\"x-auth-type\":\"None\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"notificacion-servicio\",\"version\":\"v1\"}}",
+  "thumbnailUri":null,
+  "responseCaching":"Disabled",
+  "cacheTimeout":300,
+  "destinationStatsEnabled":null,
+  "type":"HTTP",
+  "transport": [
+    "http",
+    "https"
+  ],
+  "tags":null,
+  "tiers":[
+    "Unlimited"
+  ],
+  "apiLevelPolicy":null,
+  "authorizationHeader":null,
+  "maxTps":null,
+  "visibility":"PUBLIC",
+  "visibleRoles": null,
+  "visibleTenants":null,
+  "endpointConfig": "",
+  "endpointSecurity":null,
+  "gatewayEnvironments":null,
+  "labels":null,
+  "sequences":null,
+  "subscriptionAvailability":null,
+  "subscriptionAvailableTenants":null,
+  "accessControl":null,
+  "accessControlRoles":null,
+  "businessInformation":null,
+  "corsConfiguration":null,
+  "isDefaultVersion":false
+}
